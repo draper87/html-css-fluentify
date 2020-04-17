@@ -1,11 +1,11 @@
-/* Regole reset */
+/* REGOLE RESET */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   list-style: none;
 }
-/* Regole Generali */
+/* REGOLE GENERALI */
 body {
   font-family: 'Roboto', sans-serif;
 }
@@ -19,8 +19,7 @@ body {
   clear: both;
 }
 
-
-/* Regole Header */
+/* REGOLE HEADER */
 header {
   background-color: #0c325a;
   color: white;
@@ -30,6 +29,7 @@ header {
   background-repeat: no-repeat;
   background-position: 110% 100%;
 }
+/* Regole navigation */
 header .headertop .nav {
   margin-top: 10px;
   float: left;
@@ -38,6 +38,9 @@ header .headertop .nav ul li{
   display: inline-block;
   font-size: 12px;
   padding: 15px;
+}
+header .headertop .nav a:hover {
+  color: orange;
 }
 header .headertop .nav.left {
   margin-left: 40px;
@@ -56,6 +59,15 @@ header .headertop .nav.right .struttura {
   padding: 10px 30px;
   border-radius: 7px;
 }
+header .headertop .nav.right .struttura:hover {
+  background-color: orange;
+  color: white;
+}
+header .headertop a {
+  text-decoration: none;
+  color: white;
+}
+/* Regole teaser */
 header .headertop .teaser {
   width: 30%;
   position: absolute;
@@ -66,17 +78,18 @@ header .headertop .teaser h1 {
   font-size: 40px;
   margin-bottom: 35px;
 }
-header .headertop a {
-  text-decoration: none;
-  color: white;
-}
+
 header .headertop .teaser a {
   padding: 15px 30px;
   background: #7cbb02;
   border-radius: 7px;
 }
+header .headertop .teaser a:hover {
+  background-color: orange;
+}
 
-/* Regole Main */
+/* REGOLE MAIN */
+/* Regole main top */
 main .block.top {
   background-color: #d3d3d3;
   padding: 25px;
@@ -90,7 +103,7 @@ main .block.top h3 {
 main .block.top p {
   color: #808080;
 }
-
+/* Regole Main middle */
 main .contenitore.block.middle .col {
   width: 32%;
   float: left;
@@ -144,7 +157,7 @@ main .contenitore.block.bottom .col p {
   font-size: 18px;
   margin-bottom: 15px;
 }
-/* Regole Footer */
+/* REGOLE FOOTER */
 footer {
   background-color: #d3d3d3;
   height: 120px;
@@ -177,7 +190,7 @@ footer .contenitore .footer.right input {
   border: 1px solid #808080;
 }
 
-/* Tasto Help */
+/* TASTO HELP */
 .help {
   position: fixed;
   bottom: 0;
