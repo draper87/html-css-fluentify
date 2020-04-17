@@ -119,7 +119,7 @@ main .contenitore.block.middle .col hr {
 main .contenitore.block.middle .col p {
   color: #808080;
 }
-main .clearfix > hr {
+main > hr {
   width: 90%;
   margin-top: 50px;
   margin: 50px auto;
