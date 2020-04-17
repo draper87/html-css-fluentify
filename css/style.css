@@ -172,3 +172,20 @@ footer .contenitore .footer.right button {
   border-radius: 5px;
   margin-left: 10px;
 }
+footer .contenitore .footer.right input {
+  background-color: #d3d3d3;
+  border: 1px solid #808080;
+}
+
+/* Tasto Help */
+.help {
+  position: fixed;
+  bottom: 0;
+  right: 14%;
+}
+.help p {
+  padding: 10px;
+  background-color: #7cbb02;
+  color: white;
+  border-radius: 2px;
+}
