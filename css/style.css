@@ -1,0 +1,174 @@
+/* Regole reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+/* Regole Generali */
+body {
+  font-family: 'Roboto', sans-serif;
+}
+.contenitore {
+  width: 80%;
+  margin: auto;
+}
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* Regole Header */
+header {
+  background-color: #0c325a;
+  color: white;
+  height: 500px;
+  background-image: url(../img/background-header.png);
+  background-size: 900px;
+  background-repeat: no-repeat;
+  background-position: 110% 100%;
+}
+header .headertop .nav {
+  margin-top: 10px;
+  float: left;
+}
+header .headertop .nav ul li{
+  display: inline-block;
+  font-size: 12px;
+  padding: 15px;
+}
+header .headertop .nav.left {
+  margin-left: 40px;
+}
+header .headertop .nav.right {
+  text-align: right;
+  float: right;
+}
+header .headertop .nav.right .login {
+  border: 1px solid white;
+  padding: 10px 30px;
+  border-radius: 7px;
+}
+header .headertop .nav.right .struttura {
+  background-color: #7cbb02;
+  padding: 10px 30px;
+  border-radius: 7px;
+}
+header .headertop .teaser {
+  width: 30%;
+  position: absolute;
+  top: 25%;
+  left: 20%;
+}
+header .headertop .teaser h1 {
+  font-size: 40px;
+  margin-bottom: 35px;
+}
+header .headertop a {
+  text-decoration: none;
+  color: white;
+}
+header .headertop .teaser a {
+  padding: 15px 30px;
+  background: #7cbb02;
+  border-radius: 7px;
+}
+
+/* Regole Main */
+main .block.top {
+  background-color: #d3d3d3;
+  padding: 25px;
+  line-height: 40px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+main .block.top h3 {
+  font-size: 22px;
+}
+main .block.top p {
+  color: #808080;
+}
+
+main .contenitore.block.middle .col {
+  width: 32%;
+  float: left;
+}
+main .contenitore.block.middle .col * {
+  text-align: center;
+}
+main .contenitore.block.middle .col.second {
+  margin: 0 2%;
+}
+main .contenitore.block.middle .col img {
+  height: 120px;
+  display: block;
+  margin: 30px auto;
+}
+
+main .contenitore.block.middle .col h4 {
+  color: #7cbb02;
+  font-size: 27px;
+}
+main .contenitore.block.middle .col hr {
+  width: 30%;
+  margin: 20px auto;
+  border: 0.5px solid gray;
+}
+main .contenitore.block.middle .col p {
+  color: #808080;
+}
+main .clearfix > hr {
+  width: 90%;
+  margin-top: 50px;
+  margin: 50px auto;
+  border: 0.5px solid gray;
+}
+/* Regole Main block bottom */
+main .contenitore.block.bottom .col {
+  float: left;
+  width: 38%;
+  margin: 6%;
+}
+main .contenitore.block.bottom .col img {
+  height: 400px;
+}
+main .contenitore.block.bottom .col h4 {
+  font-size: 35px;
+  margin-bottom: 15px;
+}
+main .contenitore.block.bottom .col p {
+  color: #808080;
+  line-height: 26px;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+/* Regole Footer */
+footer {
+  background-color: #d3d3d3;
+  height: 120px;
+}
+footer .contenitore .footer {
+  padding-top: 50px;
+}
+footer .contenitore .footer.left {
+  float: left;
+}
+footer .contenitore .footer.right {
+  float: right;
+}
+footer .contenitore .footer.right span {
+  color: #808080;
+}
+footer .contenitore .footer.left h5 {
+  font-size: 25px;
+}
+footer .contenitore .footer.right button {
+  background-color: #7cbb02;
+  padding: 10px;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  margin-left: 10px;
+}
